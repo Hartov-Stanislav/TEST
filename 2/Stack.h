@@ -13,8 +13,6 @@ void deleteStack(struct Stack** head);
 
 struct Stack* newStack();
 
-struct Stack* problem(const char* filename);
-
 struct Stack* stringInStack(struct Stack* head, const char* strNew);
 
 struct Stack* listOfStrings(const char* filename);
